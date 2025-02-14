@@ -6,7 +6,7 @@ Bem-vindo ao nosso desafio de codificação React! Este teste avalia suas habili
 
 ### Pré-requisitos
 
-Docker é necessário para carregar esse container.
+Docker é necessário para carregar esse projeto.
 
 * [Windows](https://docs.docker.com/windows/started)
 * [OS X](https://docs.docker.com/mac/started/)
@@ -16,13 +16,13 @@ Docker é necessário para carregar esse container.
 
 #### Parametros
 
-Para carregar o site é necessário o comando:
+Para carregar o projeto e importar o banco de dados (data.sql) é necessário o comando:
 
 ```shell
-docker compose up -d
+docker compose up -d --build
 ```
 
-## Ferramentas
+## Tecnologias
 
 * [Wordpress](https://wordpress.com/pt-br/)
 * [PHPMyAdmin](https://www.phpmyadmin.net/)

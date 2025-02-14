@@ -15,6 +15,9 @@ services:
       - 33060
     networks:
       - wpsite
+    build:
+        context: .
+        dockerfile: Dockerfile
   phpmyadmin:
     depends_on:
       - db
