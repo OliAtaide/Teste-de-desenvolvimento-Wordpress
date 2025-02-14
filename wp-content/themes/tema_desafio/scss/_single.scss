@@ -1,0 +1,42 @@
+.single-projeto {
+    .post-title {
+        font-size: 75px;
+    }
+
+    .post-text{
+        width: 50vw;
+        text-align: justify;
+        margin: 1em auto;
+    }
+
+    .page-title{
+        font-size: 45px;
+        margin: 1em 0;
+
+        span{
+            color: var(--secondary);
+        }
+    }
+
+    .breadcrumb {
+        color: var(--title);
+        margin: 1em 0;
+    }
+
+    .breadcrumb {
+        font-size: 25px;
+        a {
+            font-weight: 700;
+            color: var(--secondary);
+            text-decoration: none;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .single-projeto{
+        .post-text{
+            width: unset;
+        }
+    }
+}

@@ -1,0 +1,61 @@
+.index-main {
+    .page-title {
+        font-weight: 500;
+        font-size: 45px;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+
+.index-contato {
+    width: 50vw;
+
+    .page-text {
+        text-align: center;
+    }
+}
+
+form {
+    p:has(.wpcf7-submit) {
+        display: flex;
+    }
+    label {
+        font-weight: 700;
+        font-size: 20px;
+        color: var(--title);
+    }
+    input,
+    textarea {
+        border: 1.5px solid var(--primary) !important;
+        border-radius: 16px;
+    }
+
+    input {
+        min-height: 56px;
+    }
+
+    textarea {
+        height: 156px;
+        resize: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .index-main {
+        .row {
+            flex-direction: column-reverse;
+        }
+        .page-title,
+        .page-text {
+            text-align: center;
+        }
+        .btn {
+            margin: 0 auto;
+        }
+    }
+
+    .index-contato{
+        width: unset;
+    }
+}
